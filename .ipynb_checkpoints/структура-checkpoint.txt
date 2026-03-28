@@ -1,0 +1,30 @@
+telco-churn-prediction/
+│
+├── data/
+│   ├── raw/                # Исходные данные (не редактируются)
+│   │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│   └── processed/          # Обработанные данные (если сохраняешь)
+│       └── cleaned_data.csv
+│
+├── notebooks/              # Jupyter ноутбуки (порядок важен!)
+│   ├── 01_eda.ipynb        # Разведочный анализ (графики, инсайты)
+│   ├── 02_modeling.ipynb   # Обучение моделей, сравнение, метрики
+│   └── 03_inference.ipynb  # (Опционально) Пример предсказания на новых данных
+│
+├── src/                    # Исходный код (функции, классы)
+│   ├── __init__.py         # Делает папку пакетом (можно пустым)
+│   ├── preprocessing.py    # Функции для обработки данных (LabelEncoder, Scale)
+│   ├── utils.py            # Вспомогательные функции (твои графики distplot)
+│   └── metrics.py          # (Опционально) Функции для подсчета метрик
+│
+├── models/                 # Сохраненные модели (.pkl, .joblib)
+│   └── best_model.pkl      # Лучшая модель (например, Logistic Regression)
+│
+├── images/                 # Картинки для README (графики, матрица ошибок)
+│   ├── churn_distribution.png
+│   ├── confusion_matrix.png
+│   └── roc_curve.png
+│
+├── .gitignore              # Игнорирование лишних файлов
+├── requirements.txt        # Зависимости (библиотеки)
+└── README.md               # 👑 ГЛАВНЫЙ ФАЙЛ (описание проекта)
