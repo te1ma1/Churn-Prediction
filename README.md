@@ -9,7 +9,6 @@
 - Качественная EDA с визуализациями (matplotlib + seaborn + plotly)
 - Предобработка данных и базовое моделирование
 - Сохранённые модели и графики
-- Чёткая структура проекта (лучшие практики junior DS)
 
 ## Запуск
 git clone https://github.com/te1ma1/Churn-Prediction.git
