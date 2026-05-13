@@ -11,7 +11,7 @@
 - Сохранённые модели и графики
 
 ## Запуск
-git clone https://github.com/AtremShad901/Churn-Prediction.git
+git clone https://github.com/ArtemShad901/Churn-Prediction.git
 
 cd Churn-Prediction
 
